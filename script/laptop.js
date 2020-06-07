@@ -9,6 +9,8 @@ function Laptop(title, year, cpu, ram, cores, caseMaterial, weight){
 };
 
 function Ultrabook(title, year, cpu, ram, cores, bodyColor, weight){
-    Laptop.call(this);
     this.bodyColor = bodyColor;
+    Laptop.call(this, title, year, cpu, ram, cores, weight);
+    
+
 };

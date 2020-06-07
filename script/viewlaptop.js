@@ -71,13 +71,13 @@ ViewLaptop.prototype.getMessage = function (message, nameCl) {
 };
 
 
-ViewLaptop.prototype.massCheck = function(obj){
+/* ViewLaptop.prototype.massCheck = function(obj){
     var viewLaptop = new ViewLaptop();
-    if (obj.weight > 3){
+    if (obj.weight >= 3){
         viewLaptop.getMessage('Вес ноутбука не должен превышать 3 кг', 'no_success');
         setTimeout(() => document.querySelector(".no_success").remove(), 5000);
     }
-}
+} */
 
 ViewLaptop.prototype.clearInput = function () {
     document.querySelector("#title_l").value = "";
