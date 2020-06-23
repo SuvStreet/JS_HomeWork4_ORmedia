@@ -18,8 +18,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
     };
 });
 
-console.log(arrDevice);
-
 let viewLaptop = new ViewLaptop();
 let viewUltrabook = new ViewUltrabook();
 

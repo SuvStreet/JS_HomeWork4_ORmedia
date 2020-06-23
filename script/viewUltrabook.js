@@ -33,8 +33,6 @@ ViewUltrabook.prototype.addUltrabook = function (arrDevice) {
 
     document.getElementById(infoUltra).addEventListener('click', function(){
         viewUltrabook.info(xUltra);
-
-        console.log(1);
     });
 };
 
