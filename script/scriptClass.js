@@ -9,8 +9,10 @@ function Laptop(title, year, cpu, ram, cores, caseMaterial, weight){
 };
 
 function Ultrabook(title, year, cpu, ram, cores, bodyColor, weight){
-    this.bodyColor = bodyColor;
     Laptop.call(this, title, year, cpu, ram, cores, weight);
-    
-
+    this.bodyColor = bodyColor;
+    this.weight = weight;
 };
+
+let arrDevice = []; // хранит все устройства
+let allDevice; // переменная для создания объекта
